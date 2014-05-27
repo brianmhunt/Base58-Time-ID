@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "Generate short unique time-based ids in base58",
   "activationEvents": ["base58-time-id:new"],
-  "repository": "https://github.com/atom/base58-time-id",
+  "repository": "https://github.com/brianmhunt/base58-time-id",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

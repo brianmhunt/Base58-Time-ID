@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+    'New base58 ID': 'base58-time-id:new'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'New base58 ID'
+      'submenu': [
+        { 'label': 'New ID', 'command': 'base58-time-id:new' }
+      ]
+    ]
+  }
+]
